@@ -58,6 +58,12 @@ const Hero = () => {
             >
                 Explore Menu
             </a>
+
+            <p className="text-xl md:text-2xl mt-8 max-w-2xl transition"
+                style={{
+                    color: isLight ? "#fff" : "var(--theme-paragraph)",
+                    transition: "color 0.3s"
+                }}>Open Daily: 10am - 10pm</p>
         </section>
     );
 };
