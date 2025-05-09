@@ -8,7 +8,8 @@ const menuItems = [
         price: "$14.99",
         calories: 850,
         category: "Pizza",
-        subCategory: "Starters"
+        subCategory: "Starters",
+        isPopular: true
     },
     {
         slug: "classic-burger",
