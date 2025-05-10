@@ -43,6 +43,54 @@ const menuItems = [
         calories: 600,
         category: "Tacos",
         subCategory: "Desserts"
+    },
+    // --- New items below ---
+    {
+        slug: "grilled-chicken",
+        title: "Grilled Chicken",
+        desc: "Tender grilled chicken breast served with seasonal vegetables.",
+        img: "/images/menu-5.jpg",
+        details: "Juicy chicken breast grilled to perfection, served with a side of steamed seasonal vegetables and a light herb sauce.",
+        price: "$13.99",
+        calories: 540,
+        category: "Chicken",
+        subCategory: "Main Courses",
+        isPopular: true
+    },
+    {
+        slug: "veggie-pasta",
+        title: "Veggie Pasta",
+        desc: "Pasta tossed with fresh vegetables and a light tomato sauce.",
+        img: "/images/menu-6.jpg",
+        details: "A healthy mix of penne pasta, zucchini, bell peppers, and cherry tomatoes in a homemade tomato sauce.",
+        price: "$12.49",
+        calories: 480,
+        category: "Pasta",
+        subCategory: "Main Courses"
+    },
+    {
+        slug: "cheesecake",
+        title: "Classic Cheesecake",
+        desc: "Creamy cheesecake with a graham cracker crust.",
+        img: "/images/menu-7.jpg",
+        details: "Rich and creamy cheesecake served with a strawberry glaze and fresh berries.",
+        price: "$6.99",
+        calories: 410,
+        category: "Dessert",
+        subCategory: "Desserts",
+        isPopular: true
+    },
+    {
+        slug: "lemonade",
+        title: "Fresh Lemonade",
+        desc: "Refreshing homemade lemonade with a hint of mint.",
+        img: "/images/menu-8.jpg",
+        details: "A cool and refreshing drink made from freshly squeezed lemons, sugar, and mint leaves.",
+        price: "$3.99",
+        calories: 120,
+        category: "Drink",
+        subCategory: "Drinks",
+        isPopular: true
     }
 ];
 
