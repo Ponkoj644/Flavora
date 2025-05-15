@@ -5,6 +5,7 @@ import MenuPreview from "@/components/MenuPreview";
 import OurJourney from "@/components/OurJourney";
 import SignatureDishes from "@/components/SignatureDishes";
 import Testimonial from "@/components/Testimonial";
+import Gallery from "@/components/Gallery";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <OurJourney />
       <SignatureDishes />
       <Testimonial />
+      <Gallery />
     </>
   );
 }
