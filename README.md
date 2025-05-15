@@ -45,3 +45,55 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Testimonials Preview (happy customers)
 - Gallery Preview (beautiful photos)
 - Footer (contact, address, social links)
+
+
+## 🔥 Final Project Structure Plan
+flavora-v2.0/
+├── public/                       # Static assets (images, logos)
+│   ├── images/                   # Food, dishes, people, etc.
+│   └── icons/                    # SVGs or favicon
+│
+├── src/
+│   ├── app/                      # App Router directory
+│   │   ├── layout.tsx           # Root layout (includes header/footer/theme)
+│   │   ├── page.tsx             # Homepage (Flavora landing page)
+│   │   ├── about/               # About page
+│   │   ├── menu/                # Menu page
+│   │   ├── contact/             # Contact page
+│   │   └── ...                  # Other routes
+│   │
+│   ├── components/              # Reusable UI components
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── TestimonialCard.tsx
+│   │   └── ...
+│   │
+│   ├── sections/                # Page-specific sections
+│   │   ├── SignatureDishes.tsx
+│   │   ├── OurJourney.tsx
+│   │   ├── FlavoraVibes.tsx
+│   │   └── ...
+│   │
+│   ├── styles/                  # CSS or Tailwind layer files
+│   │   ├── globals.css
+│   │   ├── variables.css        # Custom props (colors, typography)
+│   │   └── ...
+│   │
+│   ├── lib/                     # Utility functions (e.g., theme toggle, formatters)
+│   │   └── theme.ts
+│   │
+│   ├── constants/               # Static data / dummy API for now
+│   │   └── testimonials.ts
+│   │
+│   ├── hooks/                   # Custom React hooks
+│   │   └── useTheme.ts
+│   │
+│   └── types/                   # TypeScript interfaces
+│       └── testimonial.ts
+│
+├── .env.local                   # Environment variables
+├── tailwind.config.ts           # Tailwind configuration
+├── tsconfig.json                # TypeScript config
+├── package.json
+└── README.md

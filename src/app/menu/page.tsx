@@ -48,7 +48,7 @@ const MenuPage = () => {
             {/* Menu items */}
             <div className=" w-full md:max-w-7xl flex flex-col md:flex-row gap-8 items-start justify-between px-4 ">
 
-                <div className="w-full md:w-6xl text-start">
+                <div className="w-full text-start">
                     {filteredItems.length === 0 ? (
                         <div className="text-center text-lg text-[var(--theme-paragraph)] py-12">
                             No items found in this category.
@@ -102,7 +102,7 @@ const MenuPage = () => {
                 </div>
 
                 {/* Best Choices */}
-                <div className="w-full md:max-w-4xl text-start">
+                <div className="w-full text-start">
                     <h2 className="text-lg sm:text-xl lg:text-2xl font-bold" style={{ color: "var(--theme-primary)" }}>Best Choices</h2>
 
                     <div className="flex flex-col ">
