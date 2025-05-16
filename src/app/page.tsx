@@ -6,6 +6,7 @@ import OurJourney from "@/components/OurJourney";
 import SignatureDishes from "@/components/SignatureDishes";
 import Testimonial from "@/components/Testimonial";
 import Gallery from "@/components/Gallery";
+import FlavoraVibes from "@/components/FlavoraVibes";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <SignatureDishes />
       <Testimonial />
       <Gallery />
+      <FlavoraVibes />
     </>
   );
 }
