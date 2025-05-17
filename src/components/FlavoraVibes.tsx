@@ -11,7 +11,7 @@ const FlavoraVibes: React.FC = () => {
                     Experience the unique atmosphere of our restaurant, where every dish is a celebration of flavors and every moment is a cherished memory.
                 </p>
             </div>
-            <div className="container mx-auto px-4 text-center">
+            <div className="mx-auto px-4 text-center ">
                 <div className="">
                     <DishSlider />
                 </div>
